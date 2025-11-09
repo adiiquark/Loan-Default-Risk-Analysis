@@ -30,27 +30,24 @@ A comprehensive Power BI dashboard analyzing loan default risk across 250,000+ l
 ## Getting Started
 1. Download the Power BI Template (`.pbit`) from the `src` folder
 2. Open in Power BI Desktop and connect to your loan data source
-3. Follow the [Implementation Guide](docs/implementation-guide.md) for setup
+3. Follow the implementayion and visual guide for setup
 
 ## Documentation
-- [Data Dictionary](docs/data-dictionary.md)
-- [DAX Measures](docs/dax-measures.md)
-- [Implementation Guide](docs/implementation-Andvisual-guide.md)
+- [Data Dictionary]
+- [DAX Measures]
+- [Implementation Guide]
 ## Screenshots
 ### Overview Dashboard
-![Overview Dashboard](assets/overview-dashboard.png)
+![Overview Dashboard]
 
 ### Demographics Dashboard
-![Demographics Dashboard](assets/demographics-dashboard.png)
+![Demographics Dashboard]
 
-### Time Analysis Dashboard
-![Time Analysis Dashboard](assets/time-analysis-dashboard.png)
-
+### Financial Risk Metrics Dashboard
 ## Technologies Used
-- [Power BI](https://powerbi.microsoft.com/)
-- [Microsoft SQL Server](https://www.microsoft.com/en-us/sql-server/)
-- [Power BI Dataflows](https://docs.microsoft.com/en-us/power-bi/transform-model/dataflows/dataflows-introduction-self-service)
-- [DAX](https://docs.microsoft.com/en-us/dax/)
-
+- [Power BI]
+- [Microsoft SQL Server]
+- [Power BI Dataflows]
+- [DAX]
 ## License
 This project is for demonstration purposes only.
