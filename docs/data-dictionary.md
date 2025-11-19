@@ -14,23 +14,44 @@
 ...............................................................................................................
 
 LoanID	               | String  | Unique loan identifier; Serves as Primary key for tracking individual loans
+
 Age	                   | Int64   | Applicant's age; Correlates with financial stability indicators
+
 Income	               | Int64   | Applicant's Income; Debt-to-income ratio calculations
+
 LoanAmount	           | Int64   | Approved Loan amount; Increases exposure
+
 CreditScore	           | Int64   | Applicant's credit score; Key risk indicator
+
 MonthsEmployed	       | Int64   | Number of months the applicant has been employed; Correlates with financial stability indicators
+
+
 NumCreditLines	       | Int64   | Number of active credit lines per applicant; Indicates credit utilization behavior, higher numbers may signal financial stress or established credit history
+
+
 InterestRate           | Double  | Annual interest rate assigned to the loan; Directly impacts borrower's repayment capacity and lender's profitability, risk-based pricing indicator	
+
 LoanTerm	             | Int64   | Duration of the loan in months; Shorter terms typically mean higher monthly payments but lower total interest; affects default probability
+
 DTIRatio	             | Double  | Debt-to-Income ratio (monthly debt payments ÷ monthly income); Critical risk indicator
+
+
 Education	             | String  | Highest education level completed; Correlates with financial literacy and income potential 
+
 EmploymentType	       | String  | Category of employment (e.g., Full-time, Part-time, Self-employed)
+
 MaritalStatus	         | String  | Applicant's marital status; Indicates income stability
+
 HasMortgage	           | Boolean | Indicates if applicant has an existing mortgage; Homeownership suggests financial stability and asset ownership
+
 HasDependents	         | Boolean | Indicates if applicant has financial dependents; More dependents reduce disposable income
+
 LoanPurpose	           | String  | Intended use of loan funds; Risk varies significantly by purpose (e.g., debt consolidation vs. home improvement)
+
 HasCoSigner	           | Boolean | Indicates presence of a loan co-signer; Co-signers provide repayment guarantee substantially reduces default risk
+
 Default	               | Boolean | Indicates if loan defaulted (1) or not (0); Target variable for risk modeling, key outcome for portfolio performance analysis
+
 Loan Date (DD/MM/YYYY) | DateTime| Date when loan was originated; Enables time-based analysis of trends, seasonality, and economic impact on defaults
 
 
