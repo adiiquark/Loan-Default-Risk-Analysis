@@ -12,6 +12,7 @@
 
 |   Column Name        |Data Type|Description & Business Significance                                      
 ...............................................................................................................
+
 LoanID	               | String  | Unique loan identifier; Serves as Primary key for tracking individual loans
 Age	                   | Int64   | Applicant's age; Correlates with financial stability indicators
 Income	               | Int64   | Applicant's Income; Debt-to-income ratio calculations
